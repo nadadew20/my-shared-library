@@ -1,4 +1,4 @@
-// vars/runDocker.groovy
+/vars/runDocker.groovy
 def call(String appName, String buildNumber, String hostPort = "5000") {
     sh """
         docker run -d \
